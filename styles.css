@@ -1,0 +1,39 @@
+.body{
+  border: 2px solid silver;
+  box-shadow: 5px 5px 5px silver;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  font-family: 'helvetica';
+}
+
+.boton{
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+.randomWeather{
+  font-family: 'helvetica';
+  font-weight: bold;
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+}
+
+.title{
+  font-family: 'helvetica';
+}
+
+.texto{
+  display: flex;
+  justify-content: center;
+}
+
+.text{
+  font-family: 'helvetica';
+}
