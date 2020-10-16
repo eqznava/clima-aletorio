@@ -23,7 +23,7 @@ function showWeather(){
       break;
     case 'Nevado ❄':txtReview.textContent = 'Está nevando - ¡está congelando! Lo mejor es quedarse en casa con una taza caliente de chocolate, o hacer un muñeco de nieve ❄☃🥶.';
       break;
-    case 'Niebla 🌁':txtReview.textContent = 'No está lloviendo, pero el cielo está gri y nublado; podría llover en cualquier momento, así que lleve un saco solo por si acaso 🌫☂🧣.';
+    case 'Niebla 🌁':txtReview.textContent = 'No está lloviendo, pero el cielo está gris y nublado; podría llover en cualquier momento, así que lleve un saco solo por si acaso 🌫☂🧣.';
       break;
     default:'No se porque no deberia de funcionar 🤨'
   }
