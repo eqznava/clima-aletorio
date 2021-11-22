@@ -1,39 +1,61 @@
-.body{
-  border: 2px solid silver;
-  box-shadow: 5px 5px 5px silver;
+.body {
+    border: 2px solid silver;
+    box-shadow: 5px 5px 5px silver;
 }
 
-h1{
-  display: flex;
-  justify-content: center;
-  font-family: 'helvetica';
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'helvetica';
+    font-size: 1.7em;
+    text-align: center;
 }
 
-.boton{
-  display: flex;
-  justify-content: center;
-  margin: 15px;
+.boton {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
 }
 
-.randomWeather{
-  font-family: 'helvetica';
-  font-weight: bold;
+.randomWeather {
+    font-family: 'helvetica';
+    font-weight: bold;
 }
 
-.titulo{
-  display: flex;
-  justify-content: center;
+.titulo {
+    display: flex;
+    justify-content: center;
 }
 
-.title{
-  font-family: 'helvetica';
+.title {
+    font-family: 'helvetica';
 }
 
-.texto{
-  display: flex;
-  justify-content: center;
+.texto {
+    display: flex;
+    justify-content: center;
 }
 
-.text{
-  font-family: 'helvetica';
+.text {
+    font-family: 'helvetica';
+    text-align: center;
+}
+
+@media screen and (max-width:1024px) {
+    .texto {
+        font-size: 1em;
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width:425px) {
+    h1 {
+        font-size: 1.2em;
+    }
 }
