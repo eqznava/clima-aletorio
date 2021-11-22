@@ -42,7 +42,7 @@ h1 {
 }
 
 @media screen and (max-width:1024px) {
-    .texto {
+    .text {
         font-size: 1em;
         padding: 25px;
     }
